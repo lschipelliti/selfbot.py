@@ -199,7 +199,7 @@ class Selfbot(commands.Bot):
     async def ping(self, ctx):
         """Pong! Returns your websocket latency."""
         em = discord.Embed()
-        em.title ='Pong! Websocket Latency:'
+        em.title ='Pongg! Websocket Latency:'
         em.description = f'{self.ws.latency * 1000:.4f} ms'
         em.color = await ctx.get_dominant_color(ctx.author.avatar_url)
         try:
